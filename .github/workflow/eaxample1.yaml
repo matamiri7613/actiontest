@@ -4,12 +4,16 @@ on: push
 jobs:
   print_new:
   runs-on: ubuntu-latest
+
   steps:
   -name: update_repo
   run: sudo apt update && apt upgrade -y
+
   -name: tree
   run: apt install tree -y
+
   -name: cahnge dir
   runs: cd ~
+  
   -name: tree1
   runs: tree
