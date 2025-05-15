@@ -2,7 +2,7 @@ name: fist_try
 
 on: push
 jobs:
-  print_new:
+  work1:
   runs-on: ubuntu-latest
 
   steps:
