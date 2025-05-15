@@ -8,9 +8,6 @@ jobs:
   steps:
   -name: checkout Repo
   uses: actions/checkout@v4
-  
-  -name: update_repo
-  run: sudo apt update && apt upgrade -y
 
   -name: tree
   run: apt install tree -y
