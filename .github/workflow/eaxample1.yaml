@@ -1,0 +1,9 @@
+name: fist_try
+
+on: push
+jobs:
+  print_new:
+  runs-on: ubuntu-latest
+  steps:
+  -name: update_repo
+  run: sudo apt update && apt upgrade -y
