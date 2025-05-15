@@ -9,7 +9,7 @@ jobs:
     - name: checkout Repo
       uses: actions/checkout@v4
     - name: systemupdate
-      run: apt update && apt upgrade -y
+      run: sudo apt update && apt upgrade -y
     - name: install tree
       run: sudo apt install tree
     - name: cahnge_dir
