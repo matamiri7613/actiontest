@@ -6,6 +6,9 @@ jobs:
   runs-on: ubuntu-latest
 
   steps:
+  -name: checkout Repo
+  uses: actions/checkout@v4
+  
   -name: update_repo
   run: sudo apt update && apt upgrade -y
 
@@ -14,6 +17,6 @@ jobs:
 
   -name: cahnge dir
   runs: cd ~
-  
+
   -name: tree1
   runs: tree
