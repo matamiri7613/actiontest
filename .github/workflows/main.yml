@@ -15,7 +15,7 @@ jobs:
     - name: cahnge_dir
       run: cd ~
     - name: folder
-      run: mkdir new
+      run: mkdir newmohammad
             cd new
     - name: tree1
       run: tree
