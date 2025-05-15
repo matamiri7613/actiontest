@@ -9,10 +9,10 @@ jobs:
   -name: checkout Repo
   uses: actions/checkout@v4
 
-  -name: tree
+  -name: tree1
   run: apt install tree -y
 
-  -name: cahnge dir
+  -name: cahnge_dir
   runs: cd ~
 
   -name: tree1
