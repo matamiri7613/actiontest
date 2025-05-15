@@ -3,17 +3,14 @@ name: fist_try
 on: push
 jobs:
   work1:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
-  - name: checkout Repo
-  uses: actions/checkout@v4
-
-  - name: install tree
-  run: sudo apt install tree
-
-  - name: cahnge_dir
-  run: cd ~
-
-  - name: tree1
-  run: tree
+    steps:
+    - name: checkout Repo
+      uses: actions/checkout@v4
+    - name: install tree
+      run: sudo apt install tree
+    - name: cahnge_dir
+      run: cd ~
+    - name: tree1
+      run: tree
