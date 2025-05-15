@@ -10,10 +10,10 @@ jobs:
   uses: actions/checkout@v4
 
   -name: tree1
-  run: apt install tree -y
+  run: sudo apt install tree
 
   -name: cahnge_dir
-  runs: cd ~
+  run: cd ~
 
   -name: tree1
-  runs: tree
+  run: tree
