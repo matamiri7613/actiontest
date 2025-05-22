@@ -13,6 +13,9 @@ jobs:
     - name: install tree
       run: sudo apt install tree
     - name: cahnge_dir
+    - name: net
+      run: sudo apt install net tools -y
+            curl ifconfig.me
       run: cd ~
     - name: folder
       run: mkdir newmohammad
