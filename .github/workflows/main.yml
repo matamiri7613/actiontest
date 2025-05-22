@@ -17,7 +17,6 @@ jobs:
 
     - name: net
       run: sudo apt install net-tools -y
-            ip addr show
 
     - name: folder
       run: mkdir newmohammad
