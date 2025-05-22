@@ -8,15 +8,17 @@ jobs:
     steps:
     - name: checkout Repo
       uses: actions/checkout@v4
+
     - name: systemupdate
       run: sudo apt update -y
+
     - name: install tree
       run: sudo apt install tree
-    - name: cahnge_dir
+
     - name: net
-      run: sudo apt install net tools -y
+      run: sudo apt install net-tools -y
             curl ifconfig.me
-      run: cd ~
+
     - name: folder
       run: mkdir newmohammad
             cd new
